@@ -1,8 +1,22 @@
 # Flutter Playground
 
-A new Flutter application.
+A flutter playground using GetX
 
 ## Getting Started
+
+- Please run flutter get pub at first
+- Run flutter doctor and make sure all clear
+- Run flutter devices to see which emulator is connect, you can also see Chrome/Firefox/Edge
+- Run flutter run -d Chrome
+- Voila!
+
+## References
+
+- https://pub.dev/packages/get
+- https://medium.com/flutter-community/the-flutter-getx-ecosystem-state-management-881c7235511d
+- https://medium.com/flutter-community/the-flutter-getx-ecosystem-dependency-injection-8e763d0ec6b9
+
+## Others
 
 This project is a starting point for a Flutter application.
 
