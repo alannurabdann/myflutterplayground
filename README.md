@@ -1,7 +1,6 @@
 # Flutter Playground
 
 A flutter playground using GetX
-
 ## Getting Started
 
 - Please run flutter get pub at first

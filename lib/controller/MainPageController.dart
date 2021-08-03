@@ -7,8 +7,6 @@ class MainPageController extends GetxController {
   AuthController authController = Get.find<AuthController>();
   var tabIndex = 0.obs;
 
-  var listManusia = List<Manusia>.from([]).obs;
-
   void changeTabIndex(int index) {
     tabIndex.value = index;
   }
@@ -21,13 +19,6 @@ class MainPageController extends GetxController {
   @override
   void dispose() {
     super.dispose();
-  }
-
-  void addItem() {
-    this.listManusia.add(new Manusia("nama", "alamat"));
-
-    update();
-    // this.listManusia.assignAll([]);   clear -> insert bulk
   }
 
   void showCustomSnackbar(
@@ -65,16 +56,5 @@ class MainPageController extends GetxController {
         ],
       ),
     );
-  }
-}
-
-class Manusia {
-  final String nama, alamat;
-
-  Manusia(this.nama, this.alamat);
-
-  @override
-  String toString() {
-    return 'Manusia{nama: $nama, alamat: $alamat}';
   }
 }
